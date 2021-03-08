@@ -86,6 +86,19 @@ Knit, *commit, and push your changes to GitHub with an appropriate commit messag
 
 4.  Which states have the most and fewest Denny's locations? What about La Quinta? Is this surprising? Why or why not?
 
+> dn %>%
++     count(state) %>%
++     arrange(desc(n))
+> dn %>%
++     count(state) %>%
++     arrange((n))
+> lq %>%
++     count(state) %>%
++     arrange(desc(n))
+> lq %>%
++     count(state) %>%
++     arrange((n))
+
 For Denny's - Most
 
 ```{r}
