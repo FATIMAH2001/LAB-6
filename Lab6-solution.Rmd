@@ -203,4 +203,4 @@ ggplot(dn_lq, mapping = aes(x = longitude, y = latitude, color = establishment))
 
 \textcolor{red}{The graph figure shows that indeed there are many La Quinta hotels that located next to Denny's restaurants. We could also see from the figure that there is the presence of the two chains across the US as the figure almost depict the exact map of the country. The figure also indicates the presence of these chains in Alaska (top-left), Hawaii (bottom-left), and some cities in Central America(bottom-right)}
 
-Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards and review the md document on GitHub to make sure you're happy with the final state of your work.*
+Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards and review the md document on GitHub to make sure you're happy with the final state of your work.* 
